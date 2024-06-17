@@ -1,3 +1,4 @@
+import { StyleSheet } from "react-native";
 const estilo = StyleSheet.create({
     container: {
       width: 380,
