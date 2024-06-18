@@ -1,4 +1,4 @@
-import estilo from "../Detalhes/estilo";
+import estilo from "./estilo";
 import {View, Text, ScrollView} from 'react-native';
 import { Image } from 'expo-image';
 import { Ionicons } from '@expo/vector-icons';

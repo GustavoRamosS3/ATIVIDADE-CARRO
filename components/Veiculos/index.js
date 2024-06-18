@@ -1,11 +1,11 @@
 import estilo from './estilo';
 import { View, FlatList, ScrollView } from 'react-native';
-import Lista_veiculos from 'dados.js';
+import Lista_veiculos from '../../dados';
 import CardVeiculo from '../CardVeiculo';
 
-export default function Veiculo(props){
+export default function Veiculo(props) {
     return(
-        <View>
+        <View style={estilo.container}>
             <ScrollView>
                 <FlatList
                 data={Lista_veiculos}
