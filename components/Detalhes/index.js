@@ -10,7 +10,7 @@ export default function Detalhes(props) {
     return (
         <View style={estilo.container}>
             <View style={estilo.head}>
-                <Ionicons name="arrow-back-outline" size={24} color="#555" onPress={voltar} />
+                <Ionicons name="arrow-back-outline" size={24} color="#e11138" onPress={voltar} />
                 <Text style={estilo.head_title}>
                     Detalhes
                 </Text>
@@ -27,14 +27,13 @@ export default function Detalhes(props) {
                 </View>
                 <View style={estilo.info}>
                         <Text style={estilo.titulo}>{veiculo.fabricante} {veiculo.modelo}</Text>                        
-                        <Text style={estilo.valor}>{`R$ ${veiculo.preco}`}</Text>
-                        <Text style={estilo.valor}>{`motorizacao ${veiculo.motorizacao}`}</Text>
-                        <Text style={estilo.valor}>{`ano ${veiculo.ano}`}</Text>
-                        <Text style={estilo.valor}>{`km ${veiculo.km}`}</Text>
-                        <Text style={estilo.valor}>{`cor ${veiculo.cor}`}</Text>
-                        <Text style={estilo.valor}>{`cambio ${veiculo.cambio}`}</Text>
-                        <Text style={estilo.valor}>{`portas ${veiculo.portas}`}</Text>                        
-                        <Text style={estilo.valor}>{`preco ${veiculo.preco}`}</Text>
+                        <Text style={estilo.valor}>{`Preço : R$${veiculo.preco}`}</Text>
+                        <Text style={estilo.valor}>{`Motorizacao : ${veiculo.motorizacao}`}</Text>
+                        <Text style={estilo.valor}>{`Ano : ${veiculo.ano}`}</Text>
+                        <Text style={estilo.valor}>{`KM : ${veiculo.km}`}</Text>
+                        <Text style={estilo.valor}>{`Cor : ${veiculo.cor}`}</Text>
+                        <Text style={estilo.valor}>{`Cambio : ${veiculo.cambio}`}</Text>
+                        <Text style={estilo.valor}>{`Portas : ${veiculo.portas}`}</Text>                        
                 </View>
             </View>
         </View>

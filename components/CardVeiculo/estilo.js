@@ -10,21 +10,17 @@ const estilo = StyleSheet.create({
     titulo:{
       padding: 5,
       textAlign: 'center',
-      backgroundColor: '#0000009e',
+      backgroundColor: '#e57180',
       fontSize: 18,
       fontWeight: '500',
       color: 'white',
-      borderTopLeftRadius: 10 ,
-      borderTopRightRadius: 10 
     },
     valor:{
       padding: 5,
-      backgroundColor: '#0000009e',
+      backgroundColor: '#e57180',
       fontSize: 18,
       fontWeight: '500',
       color: 'white',
-      borderBottomLeftRadius: 10 ,
-      borderBottomRightRadius: 10 
     }
   });
 

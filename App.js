@@ -17,7 +17,7 @@ function MyTabs() {
       screenOptions={{
         tabBarStyle: {
           backgroundColor: 'ecedf2',
-          height: 45,
+          height: 50,
         },
         tabBarLabelStyle: {
           fontSize: 15,

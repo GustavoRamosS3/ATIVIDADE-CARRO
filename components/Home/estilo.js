@@ -12,11 +12,11 @@ const estilo = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	card:{
-        width: '85%',
+        width: '102%',
         backgroundColor: '#e11138',
         padding: 7,
 		borderRadius: 30,
-		marginTop: 10,
+		marginTop: 50,
       },
 	  mensage:{
 		color: '#ffffff',		
@@ -26,8 +26,10 @@ const estilo = StyleSheet.create({
 		width: "100vw",
 		height: 250,
 		marginBottom: 50,
-		borderStyle: "solid",
-		borderBottomColor: "blue",
+		borderStyle: 'solid',
+		borderWidth: 0.2,
+		borderColor:"#e11138",
+		marginTop: 2,
 	  },
 	  title:{
 		fontSize: 20,
@@ -37,14 +39,16 @@ const estilo = StyleSheet.create({
 	  },
 	  Text:{
 		color: "#e11138",
+		fontSize: 16,
 	  },
 	  Textos:{
-		marginLeft: 5,
-		alignItems: 'flex-start',
+		alignItems: 'center',
 		justifyContent: 'center',
+		width: 269,
+		marginLeft: 23,
 	  },
 	  marginTop: {
-		marginTop: 10, // Adiciona uma margem no topo para separar os textos
+		marginTop: 10,
 	  },
 });
 

@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     head_title:{
         fontSize: 18,
         fontWeight: '500',
-        color: '#444',
+        color: '#e11138',
         marginHorizontal: 7
     },
     body:{
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     },
     slides:{
         flexDirection: 'row',
-        width: 400,
+        width: 450,
         height: 300
     },
     foto:{
@@ -35,6 +35,19 @@ const styles = StyleSheet.create({
     info:{
         width: 350,
         textAlign: 'left'
+    },
+    titulo:{
+        fontSize: 25,
+		fontWeight: 'bold',
+		marginBottom: 10,
+        marginTop: 10,
+		color: "#e11138",
+    },
+    valor:{
+        fontSize: 15,
+		marginBottom: 10,
+        marginTop: 3,
+		color: "#e11138",
     },
 });
 
